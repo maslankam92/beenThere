@@ -1,0 +1,98 @@
+/* GENERAL STYLES
+=============================================== */
+
+html {
+	height: 100%;
+	width: 100%;
+}
+
+p {
+	font-family: 'Cookie';
+	text-align: center;
+	margin: auto;
+}
+
+
+/* BACKGROUND IMAGE
+=============================================== */
+
+.landing {
+	background: url("../img/landing.jpg") top no-repeat;
+	background-size: cover;
+   
+}
+
+/* TITLES
+=============================================== */
+
+.name {
+	font-size: 2em;
+	color: #FFF;
+	margin: 0 0 6%;
+}
+
+.bigtitle {
+	color: #FFF;
+	font-size: 12em;
+	margin: auto;
+}
+
+.description {
+	color: #FFF;
+	font-size: 3em;
+	margin-bottom: 4%;
+}
+
+/* BUTTON
+=============================================== */
+
+.divein {
+	display: block;
+	color: white;
+	border: solid white;
+	font-size: 2rem;
+	font-family: 'Cookie';
+	width: 8rem;
+	border-radius: 10px;
+	margin: 10px auto 50px;
+	transition: 0.5s;
+	text-decoration: none;
+	padding: 1.5% 0;
+	text-align: center;
+}
+
+
+.divein:hover {
+	color: black;
+	background: white;
+	transition: 0.5s;
+}
+
+/* MEDIA QUERIES
+=============================================== */
+
+@media screen and (max-width: 850px) {
+
+	.bigtitle {
+		font-size: 20vw;
+	}
+
+	.description {
+		font-size: 7vw;
+	}
+}
+
+@media screen and (max-width: 480px) {	
+
+	.name {
+		margin-bottom: 20%;
+	}
+
+	.bigtitle {
+		margin-bottom: 10%;
+	}
+
+	.description {
+		margin-bottom: 10%;
+	}
+}
